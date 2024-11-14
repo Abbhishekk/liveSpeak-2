@@ -31,6 +31,8 @@ let lastSpokenText = "";
 
 
 export default (text: string, isEmpty: boolean, lang?: string) => {
+  console.log(lastSpokenText, "lastSpokenText");
+  
   if (text === lastSpokenText) {
     console.log("Skipping speaking text again:", text);
     return;

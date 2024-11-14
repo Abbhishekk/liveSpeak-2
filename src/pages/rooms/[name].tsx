@@ -34,19 +34,19 @@ const Home: NextPage = () => {
       code: "mr",
     },
     {
-      language: "urdu",
-      code: "ur",
+      language: "Spanish",
+      code: "es",
     },
     {
-      language: "Gujarati",
-      code: "gu",
+      language: "Japanese",
+      code: "ja",
     },
   ];
 
   return (
     <>
       <Head>
-        <title>AudioWiz</title>
+        <title>LiveSpeak</title>
         <meta name="description" content="AudioWiz" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -8,8 +8,8 @@ import {
   formatChatMessageLinks,
 } from "@livekit/components-react";
 import { setCORS } from "google-translate-api-browser";
-
-const translate = setCORS("https://cors-proxy.fringe.zone/");
+// import translate from "google-translate-open-api";
+const translate = setCORS("https://cors-anywhere.herokuapp.com/");
 
 import {
   LogLevel,
